@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Harmattan:wght@400;700&display=swap');
+
+* {
+    font-family: 'Harmattan', sans-serif;
+}
+
+.cabecalho {
+    align-items: center;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .9);
+    display: flex;
+    height: 60px;
+    justify-content: center;
+    width: 100%;
+}
+
+.nav_text {
+    color: #49A7EB;
+    font-size: 1.4rem;
+    font-weight: 200;
+    letter-spacing: 2px;
+}
+
+.principal {
+    background-color: #F1F5F8;
+    height: 100vh;
+    box-shadow:inset 2px 2px 5px rgba(0, 0, 0, .4);
+}
+
+.principal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.background_main {
+    background-color: #222;
+    border-radius: 13px;
+    padding: 20px;
+}
+
+.main_text {
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: #FFF;
+}
+
+.color {
+    color: #49A7EB;
+    text-transform: uppercase;
+}
+
+.btn {
+    background-color: transparent;
+    border-radius: 10px;
+    border-color: #222;
+    color: #222;
+    font-size: 1.5rem;
+    font-weight: bold;
+    height: 50px;
+    letter-spacing: 1px;
+    margin-top: 50px;
+    text-transform: uppercase;
+    transition: .4s;
+    width: 145px;
+}
+
+.btn:hover {
+    background-color: #222;
+    color: #FFF;
+}
